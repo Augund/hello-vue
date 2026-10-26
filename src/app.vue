@@ -1,17 +1,12 @@
 <template>
-    <div class="app">
-        <h1>你好~</h1>
-    </div>
+    <Person/>
 </template>
 
 <script lang="ts">
-</script>
+    import Person from './component/Person.vue'
 
-<style>
-    .app{
-        background-color: #f0f0f0;
-        box-shadow: 0 0 10px;
-        border-radius: 10px;
-        padding: 20px;
+    export default{
+        name:'App',
+        components:{Person}
     }
-</style>
+</script>
